@@ -27,6 +27,7 @@ export const Overlay = () => {
   const scroll = useScroll();
   const [opacityFirstSection, setOpacityFirstSection] = useState(1);
   const [opacitySecondSection, setOpacitySecondSection] = useState(1);
+  
   const [opacityLastSection, setOpacityLastSection] = useState(1);
 
   useFrame(() => {
